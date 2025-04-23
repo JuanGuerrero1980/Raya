@@ -7,6 +7,6 @@ import io.ktor.client.request.get
 class CoinService(private val client: HttpClient) {
 
     suspend fun getCoinGeckoPrice(): CoinGeckoPrice =
-            client.get("exchange_rates").body()
+            client.get("api/v3/exchange_rates").body()
 
 }

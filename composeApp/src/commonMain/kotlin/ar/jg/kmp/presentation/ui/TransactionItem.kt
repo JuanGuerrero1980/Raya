@@ -24,7 +24,7 @@ import ar.jg.kmp.presentation.model.TransactionType
 
 @Composable
 fun TransactionItem(transaction: Transaction) {
-    val amountColor = if (transaction.type == TransactionType.INCOME) Color(0xFF4CAF50) else Color(0xFFF44336)
+    val amountColor = if (transaction.type == TransactionType.INCOME) Color(0xFF357a38) else Color(0xFFF44336)
     val sign = if (transaction.type == TransactionType.INCOME) "+" else "-"
 
     Row(

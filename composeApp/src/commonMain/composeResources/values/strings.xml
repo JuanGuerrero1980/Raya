@@ -3,6 +3,7 @@
     <string name="back">Go Back</string>
     <string name="home_total_balance">Total Balance</string>
     <string name="home_convert_currencies">Convert currencies</string>
+    <string name="home_recent_transactions">Recent transactions</string>
     <string name="convert_to">To:</string>
     <string name="convert_from">From:</string>
     <string name="convert_title">Currency converter</string>

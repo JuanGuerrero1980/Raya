@@ -40,7 +40,7 @@ fun CurrencyDropdown(
                 .padding(horizontal = 8.dp, vertical = 4.dp)
         ) {
             Text(selectedCurrency, fontSize = 14.sp, fontWeight = FontWeight.Medium)
-            Icon(Icons.Default.ArrowDropDown, contentDescription = "Seleccionar moneda")
+            Icon(Icons.Default.ArrowDropDown, contentDescription = "currency dropdown")
         }
 
         DropdownMenu(

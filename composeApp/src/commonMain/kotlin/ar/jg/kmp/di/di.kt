@@ -69,7 +69,7 @@ val provideHttpClient = module {
                 url {
                     contentType(ContentType.Application.Json)
                     protocol = URLProtocol.HTTPS
-                    host = "api.coingecko.com/api/v3"
+                    host = "api.coingecko.com"
                     parameters.append("x-cg-pro-api-key", get(named("apiKey")))
                 }
             }

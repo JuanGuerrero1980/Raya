@@ -14,11 +14,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import ar.jg.kmp.presentation.model.Transaction
+import org.jetbrains.compose.resources.stringResource
+import raya.composeapp.generated.resources.Res
+import raya.composeapp.generated.resources.home_recent_transactions
 
 @Composable
 fun TransactionList(transactions: List<Transaction>) {
     Column(modifier = Modifier.fillMaxWidth().padding(16.dp)) {
-        Text("Transacciones recientes", fontSize = 16.sp, fontWeight = FontWeight.Bold)
+        Text(stringResource(Res.string.home_recent_transactions), fontSize = 16.sp, fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.height(8.dp))
 
         transactions.forEach { transaction ->
