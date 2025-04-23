@@ -45,8 +45,7 @@ Este stack permite escalar fácilmente el proyecto (por ejemplo, agregar login, 
 1. Cloná el repositorio:
 
    ```bash
-   git clone https://github.com/tuusuario/crypto-converter-kmp.git
-   cd crypto-converter-kmp
+   https://github.com/JuanGuerrero1980/Raya.git
 
 2. Abrí el proyecto con Android Studio.
 
