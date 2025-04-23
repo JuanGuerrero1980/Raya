@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Raya</string>
+    <string name="back">Go Back</string>
+    <string name="home_total_balance">Total Balance</string>
+    <string name="home_convert_currencies">Convert currencies</string>
+    <string name="convert_to">To:</string>
+    <string name="convert_from">From:</string>
+    <string name="convert_title">Currency converter</string>
+    <string name="exchange_error">Some problems are getting the exchange rates. Please try later.</string>
+</resources>
